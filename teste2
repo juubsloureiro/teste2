@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>ComCursos</title>
+    <style>
+        body{
+            background: #fbf8f6;
+            margin: 0;
+            border: 0;
+        }
+        
+        @keyframes slideup {
+            from {
+                top: 55%;
+                opacity: 0;
+            }
+            to {
+                top: 50%;
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fade {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .logo{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -160px;
+            margin-left: -160px;
+            animation: slideup 2s;
+        }
+        .area{
+            top: 50%;
+            left: 50%;
+            margin-top: 150px;
+            margin-left: -185px;
+            width: 370px;
+            position: absolute;
+            animation: fade 5s;
+            
+            top: -9999px;
+        }
+        .area img{
+            display: inline-block;
+            margin: 16px;
+            width: 150px;    
+        }
+        .area a img:hover{
+            opacity: .8;
+            transition: all .2s linear;
+        }
+    </style>
+</head>
+<body>
+    <img class="logo" src="FACEBOOK_avatar.png" alt="">
+    <div class="area">
+       <a href="#"><img src="smkztm-oie_101618322dr6menj (2).png" alt=""></a>
+       <a href="#"><img src="sxt64y-oie_1016172hbct9pvh (1).png" alt=""></a>
+    </div>
+</body>
+</html>
